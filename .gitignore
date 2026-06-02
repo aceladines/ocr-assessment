@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment / secrets — never commit
+.env
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Runtime artifacts (generated spreadsheets contain PHI — never commit)
+outputs/
+temp_uploads/
+*.xlsx
+
+# WSL / Windows zone metadata
+*:Zone.Identifier
+
+# Sample invoices (may contain PHI)
+sample_invoices/
